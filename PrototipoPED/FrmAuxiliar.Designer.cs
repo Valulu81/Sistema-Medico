@@ -39,13 +39,13 @@
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Font = new System.Drawing.Font("Rubik", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(74)))), ((int)(((byte)(129)))));
-            this.lblHora.Location = new System.Drawing.Point(132, 20);
+            this.lblHora.Location = new System.Drawing.Point(269, 21);
             this.lblHora.Name = "lblHora";
-            this.lblHora.Size = new System.Drawing.Size(325, 120);
+            this.lblHora.Size = new System.Drawing.Size(289, 108);
             this.lblHora.TabIndex = 8;
-            this.lblHora.Text = "HORA";
+            this.lblHora.Text = "00:00";
             // 
             // iconPictureBox3
             // 
@@ -55,7 +55,7 @@
             this.iconPictureBox3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
             this.iconPictureBox3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconPictureBox3.IconSize = 150;
-            this.iconPictureBox3.Location = new System.Drawing.Point(351, 167);
+            this.iconPictureBox3.Location = new System.Drawing.Point(338, 167);
             this.iconPictureBox3.Name = "iconPictureBox3";
             this.iconPictureBox3.Size = new System.Drawing.Size(150, 150);
             this.iconPictureBox3.TabIndex = 10;
@@ -64,11 +64,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Rubik", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(74)))), ((int)(((byte)(129)))));
-            this.label2.Location = new System.Drawing.Point(345, 140);
+            this.label2.Location = new System.Drawing.Point(349, 140);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 26);
+            this.label2.Size = new System.Drawing.Size(129, 25);
             this.label2.TabIndex = 9;
             this.label2.Text = "Bienvenido";
             // 
