@@ -39,6 +39,9 @@
             this.iconButton3 = new FontAwesome.Sharp.IconButton();
             this.btnLogin = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
+            this.btncrearreporte = new FontAwesome.Sharp.IconButton();
+            this.btnguardarcitas = new FontAwesome.Sharp.IconButton();
+            this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.pnlNav.SuspendLayout();
             this.pnlBarraLateral.SuspendLayout();
             this.pnlForm.SuspendLayout();
@@ -60,11 +63,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Rubik", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(657, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 20);
+            this.label1.Size = new System.Drawing.Size(100, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Usuario Tal";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -104,6 +107,9 @@
             // pnlBarraLateral
             // 
             this.pnlBarraLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(164)))), ((int)(((byte)(192)))));
+            this.pnlBarraLateral.Controls.Add(this.iconButton4);
+            this.pnlBarraLateral.Controls.Add(this.btnguardarcitas);
+            this.pnlBarraLateral.Controls.Add(this.btncrearreporte);
             this.pnlBarraLateral.Controls.Add(this.btnRegistrarPacientes);
             this.pnlBarraLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlBarraLateral.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(164)))), ((int)(((byte)(192)))));
@@ -157,7 +163,7 @@
             this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton3.FlatAppearance.BorderSize = 0;
             this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Rubik", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconButton3.ForeColor = System.Drawing.Color.White;
             this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.UserGear;
             this.iconButton3.IconColor = System.Drawing.Color.White;
@@ -176,7 +182,7 @@
             this.btnLogin.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Rubik", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.IconChar = FontAwesome.Sharp.IconChar.Repeat;
             this.btnLogin.IconColor = System.Drawing.Color.White;
@@ -196,7 +202,7 @@
             this.btnSalir.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Rubik", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.Color.White;
             this.btnSalir.IconChar = FontAwesome.Sharp.IconChar.Xmark;
             this.btnSalir.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
@@ -210,6 +216,53 @@
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // btncrearreporte
+            // 
+            this.btncrearreporte.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btncrearreporte.FlatAppearance.BorderSize = 2;
+            this.btncrearreporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncrearreporte.ForeColor = System.Drawing.Color.Transparent;
+            this.btncrearreporte.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btncrearreporte.IconColor = System.Drawing.Color.White;
+            this.btncrearreporte.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btncrearreporte.Location = new System.Drawing.Point(0, 85);
+            this.btncrearreporte.Name = "btncrearreporte";
+            this.btncrearreporte.Size = new System.Drawing.Size(85, 85);
+            this.btncrearreporte.TabIndex = 2;
+            this.btncrearreporte.UseVisualStyleBackColor = true;
+            this.btncrearreporte.Click += new System.EventHandler(this.btncrearreporte_Click);
+            // 
+            // btnguardarcitas
+            // 
+            this.btnguardarcitas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnguardarcitas.FlatAppearance.BorderSize = 2;
+            this.btnguardarcitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnguardarcitas.ForeColor = System.Drawing.Color.Transparent;
+            this.btnguardarcitas.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btnguardarcitas.IconColor = System.Drawing.Color.White;
+            this.btnguardarcitas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnguardarcitas.Location = new System.Drawing.Point(0, 170);
+            this.btnguardarcitas.Name = "btnguardarcitas";
+            this.btnguardarcitas.Size = new System.Drawing.Size(85, 85);
+            this.btnguardarcitas.TabIndex = 3;
+            this.btnguardarcitas.UseVisualStyleBackColor = true;
+            this.btnguardarcitas.Click += new System.EventHandler(this.btnguardarcitas_Click);
+            // 
+            // iconButton4
+            // 
+            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton4.FlatAppearance.BorderSize = 2;
+            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.ForeColor = System.Drawing.Color.Transparent;
+            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.iconButton4.IconColor = System.Drawing.Color.White;
+            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton4.Location = new System.Drawing.Point(0, 255);
+            this.iconButton4.Name = "iconButton4";
+            this.iconButton4.Size = new System.Drawing.Size(85, 85);
+            this.iconButton4.TabIndex = 4;
+            this.iconButton4.UseVisualStyleBackColor = true;
             // 
             // Interfaz
             // 
@@ -242,6 +295,9 @@
         private FontAwesome.Sharp.IconButton iconButton3;
         private FontAwesome.Sharp.IconButton btnLogin;
         private FontAwesome.Sharp.IconButton btnSalir;
+        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton btnguardarcitas;
+        private FontAwesome.Sharp.IconButton btncrearreporte;
     }
 }
 

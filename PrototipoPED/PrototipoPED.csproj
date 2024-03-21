@@ -71,6 +71,18 @@
     <Compile Include="FrmAuxiliar.Designer.cs">
       <DependentUpon>FrmAuxiliar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCrearReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCrearReporte.Designer.cs">
+      <DependentUpon>FrmCrearReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuardarCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuardarCitas.Designer.cs">
+      <DependentUpon>FrmGuardarCitas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +99,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAuxiliar.resx">
       <DependentUpon>FrmAuxiliar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCrearReporte.resx">
+      <DependentUpon>FrmCrearReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuardarCitas.resx">
+      <DependentUpon>FrmGuardarCitas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

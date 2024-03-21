@@ -74,11 +74,23 @@ namespace PrototipoPED
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Close(); AbrirFormulario(new FmrIngresoDatosPaciente());
+            Environment.Exit(0);    
         }
 
         private void tmrHora_Tick(object sender, EventArgs e)
         {
+        }
+
+        private void btncrearreporte_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmCrearReporte());
+
+        }
+
+        private void btnguardarcitas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmGuardarCitas());
+
         }
 
         private void AbrirFormulario(Form FormHijo)
