@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrototipoPED.Forms_de_Pantallazos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -47,7 +48,7 @@ namespace PrototipoPED
 
         private void btnRegistrarPacientes_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new FmrIngresoDatosPaciente());
+            AbrirFormulario(new FrmCrearReporte());
         }
 
         private void BarraLateral(ref bool btnBlPulsado)
@@ -83,13 +84,13 @@ namespace PrototipoPED
 
         private void btncrearreporte_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new FrmCrearReporte());
+            AbrirFormulario(new FrmVerReporte());
 
         }
 
         private void btnguardarcitas_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new FrmGuardarCitas());
+            AbrirFormulario(new FrmVerDatosPaciente());
 
         }
 
@@ -110,6 +111,12 @@ namespace PrototipoPED
 
         private void pnlNav_Paint(object sender, PaintEventArgs e)
         {
+
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmCrearGrafica());
 
         }
 

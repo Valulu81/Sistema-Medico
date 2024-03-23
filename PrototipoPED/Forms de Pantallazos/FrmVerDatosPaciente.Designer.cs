@@ -310,10 +310,11 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(32, 64);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(373, 21);
+            this.comboBox1.Size = new System.Drawing.Size(373, 28);
             this.comboBox1.TabIndex = 90;
             // 
             // FrmVerDatosPaciente

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrototipoPED.Forms_de_Pantallazos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,9 +20,21 @@ namespace PrototipoPED
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            Interfaz frmInterfaz = new Interfaz();
-            frmInterfaz.Show();
-            this.Hide();
+            string usuario;
+            usuario = textBox1.Text;
+            if (usuario=="admin")
+            {
+                FrmMainAdmin admin = new FrmMainAdmin();
+                admin.Show();
+                this.Hide();
+            }
+            else
+            {
+                Interfaz frmInterfaz = new Interfaz();
+                frmInterfaz.Show();
+                this.Hide();
+
+            }
         }
     }
 }

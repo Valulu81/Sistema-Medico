@@ -91,6 +91,7 @@
             // 
             // btnBarraLateral
             // 
+            this.btnBarraLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(119)))), ((int)(((byte)(161)))));
             this.btnBarraLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnBarraLateral.FlatAppearance.BorderSize = 0;
             this.btnBarraLateral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -102,7 +103,7 @@
             this.btnBarraLateral.Name = "btnBarraLateral";
             this.btnBarraLateral.Size = new System.Drawing.Size(85, 70);
             this.btnBarraLateral.TabIndex = 0;
-            this.btnBarraLateral.UseVisualStyleBackColor = true;
+            this.btnBarraLateral.UseVisualStyleBackColor = false;
             this.btnBarraLateral.Click += new System.EventHandler(this.btnBarraLateral_Click);
             // 
             // pnlBarraLateral
@@ -130,11 +131,12 @@
             this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
             this.iconButton4.IconColor = System.Drawing.Color.White;
             this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.Location = new System.Drawing.Point(0, 255);
+            this.iconButton4.Location = new System.Drawing.Point(0, 276);
             this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(85, 85);
+            this.iconButton4.Size = new System.Drawing.Size(85, 92);
             this.iconButton4.TabIndex = 4;
             this.iconButton4.UseVisualStyleBackColor = true;
+            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
             // 
             // btnguardarcitas
             // 
@@ -145,9 +147,9 @@
             this.btnguardarcitas.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
             this.btnguardarcitas.IconColor = System.Drawing.Color.White;
             this.btnguardarcitas.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnguardarcitas.Location = new System.Drawing.Point(0, 170);
+            this.btnguardarcitas.Location = new System.Drawing.Point(0, 184);
             this.btnguardarcitas.Name = "btnguardarcitas";
-            this.btnguardarcitas.Size = new System.Drawing.Size(85, 85);
+            this.btnguardarcitas.Size = new System.Drawing.Size(85, 92);
             this.btnguardarcitas.TabIndex = 3;
             this.btnguardarcitas.UseVisualStyleBackColor = true;
             this.btnguardarcitas.Click += new System.EventHandler(this.btnguardarcitas_Click);
@@ -161,9 +163,9 @@
             this.btncrearreporte.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
             this.btncrearreporte.IconColor = System.Drawing.Color.White;
             this.btncrearreporte.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btncrearreporte.Location = new System.Drawing.Point(0, 85);
+            this.btncrearreporte.Location = new System.Drawing.Point(0, 92);
             this.btncrearreporte.Name = "btncrearreporte";
-            this.btncrearreporte.Size = new System.Drawing.Size(85, 85);
+            this.btncrearreporte.Size = new System.Drawing.Size(85, 92);
             this.btncrearreporte.TabIndex = 2;
             this.btncrearreporte.UseVisualStyleBackColor = true;
             this.btncrearreporte.Click += new System.EventHandler(this.btncrearreporte_Click);
@@ -179,7 +181,7 @@
             this.btnRegistrarPacientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnRegistrarPacientes.Location = new System.Drawing.Point(0, 0);
             this.btnRegistrarPacientes.Name = "btnRegistrarPacientes";
-            this.btnRegistrarPacientes.Size = new System.Drawing.Size(85, 85);
+            this.btnRegistrarPacientes.Size = new System.Drawing.Size(85, 92);
             this.btnRegistrarPacientes.TabIndex = 1;
             this.btnRegistrarPacientes.UseVisualStyleBackColor = true;
             this.btnRegistrarPacientes.Click += new System.EventHandler(this.btnRegistrarPacientes_Click);

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PrototipoPED
+namespace PrototipoPED.Forms_de_Pantallazos
 {
-    public partial class FmrIngresoDatosPaciente : Form
+    public partial class FrmAgregarDoctor : Form
     {
-        public FmrIngresoDatosPaciente()
+        public FrmAgregarDoctor()
         {
             InitializeComponent();
+        }
+
+        private void FrmAgregarDoctor_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
