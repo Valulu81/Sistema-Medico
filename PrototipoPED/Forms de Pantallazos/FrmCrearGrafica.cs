@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PrototipoPED
+namespace PrototipoPED.Forms_de_Pantallazos
 {
-    public partial class FrmGuardarCitas : Form
+    public partial class FrmCrearGrafica : Form
     {
-        public FrmGuardarCitas()
+        public FrmCrearGrafica()
         {
             InitializeComponent();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
 
         }
