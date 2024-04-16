@@ -12,5 +12,8 @@ namespace PrototipoPED.Clases
         public float peso;
         public float talla;
 
+
+
+
     }
 }

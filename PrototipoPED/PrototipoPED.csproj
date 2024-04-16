@@ -58,6 +58,7 @@
     <Compile Include="Clases\Paciente.cs" />
     <Compile Include="Clases\Reporte.cs" />
     <Compile Include="Clases\SignosVitales.cs" />
+    <Compile Include="Conexion\Conexion.cs" />
     <Compile Include="Forms de Pantallazos\FrmAgregarDoctor.cs">
       <SubType>Form</SubType>
     </Compile>
