@@ -28,45 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnguardar = new System.Windows.Forms.Button();
-            this.btnborrar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.txttelefono = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txnombre = new System.Windows.Forms.TextBox();
+            this.txNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbespecialidad = new System.Windows.Forms.ComboBox();
-            this.txtapellido = new System.Windows.Forms.TextBox();
+            this.cmbEspecialidad = new System.Windows.Forms.ComboBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnguardar
+            // btnGuardar
             // 
-            this.btnguardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
-            this.btnguardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnguardar.ForeColor = System.Drawing.Color.White;
-            this.btnguardar.Location = new System.Drawing.Point(426, 267);
-            this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(87, 37);
-            this.btnguardar.TabIndex = 82;
-            this.btnguardar.Text = "Guardar";
-            this.btnguardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Location = new System.Drawing.Point(424, 267);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(87, 37);
+            this.btnGuardar.TabIndex = 82;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
             // 
-            // btnborrar
+            // btnBorrar
             // 
-            this.btnborrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
-            this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnborrar.ForeColor = System.Drawing.Color.White;
-            this.btnborrar.Location = new System.Drawing.Point(320, 267);
-            this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Size = new System.Drawing.Size(87, 37);
-            this.btnborrar.TabIndex = 81;
-            this.btnborrar.Text = "Borrar";
-            this.btnborrar.UseVisualStyleBackColor = false;
+            this.btnBorrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
+            this.btnBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrar.ForeColor = System.Drawing.Color.White;
+            this.btnBorrar.Location = new System.Drawing.Point(320, 267);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(87, 37);
+            this.btnBorrar.TabIndex = 81;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = false;
             // 
             // label8
             // 
@@ -80,18 +80,18 @@
             this.label8.Text = "Especialidad";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // txttelefono
+            // txtTelefono
             // 
-            this.txttelefono.BackColor = System.Drawing.Color.White;
-            this.txttelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txttelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txttelefono.Location = new System.Drawing.Point(452, 89);
-            this.txttelefono.Multiline = true;
-            this.txttelefono.Name = "txttelefono";
-            this.txttelefono.Size = new System.Drawing.Size(147, 28);
-            this.txttelefono.TabIndex = 69;
-            this.txttelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTelefono.BackColor = System.Drawing.Color.White;
+            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtTelefono.Location = new System.Drawing.Point(452, 89);
+            this.txtTelefono.Multiline = true;
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(147, 28);
+            this.txtTelefono.TabIndex = 69;
+            this.txtTelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -105,18 +105,18 @@
             this.label3.Text = "Telefono";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // txnombre
+            // txNombre
             // 
-            this.txnombre.BackColor = System.Drawing.Color.White;
-            this.txnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txnombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txnombre.Location = new System.Drawing.Point(221, 89);
-            this.txnombre.Multiline = true;
-            this.txnombre.Name = "txnombre";
-            this.txnombre.Size = new System.Drawing.Size(147, 28);
-            this.txnombre.TabIndex = 59;
-            this.txnombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txNombre.BackColor = System.Drawing.Color.White;
+            this.txNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txNombre.Location = new System.Drawing.Point(221, 89);
+            this.txNombre.Multiline = true;
+            this.txNombre.Name = "txNombre";
+            this.txNombre.Size = new System.Drawing.Size(147, 28);
+            this.txNombre.TabIndex = 59;
+            this.txNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
@@ -130,27 +130,27 @@
             this.label1.Text = "Primer Nombre";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // cmbespecialidad
+            // cmbEspecialidad
             // 
-            this.cmbespecialidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.cmbespecialidad.FormattingEnabled = true;
-            this.cmbespecialidad.Location = new System.Drawing.Point(449, 177);
-            this.cmbespecialidad.Name = "cmbespecialidad";
-            this.cmbespecialidad.Size = new System.Drawing.Size(150, 28);
-            this.cmbespecialidad.TabIndex = 83;
+            this.cmbEspecialidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.cmbEspecialidad.FormattingEnabled = true;
+            this.cmbEspecialidad.Location = new System.Drawing.Point(449, 177);
+            this.cmbEspecialidad.Name = "cmbEspecialidad";
+            this.cmbEspecialidad.Size = new System.Drawing.Size(150, 28);
+            this.cmbEspecialidad.TabIndex = 83;
             // 
-            // txtapellido
+            // txtApellido
             // 
-            this.txtapellido.BackColor = System.Drawing.Color.White;
-            this.txtapellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtapellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtapellido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtapellido.Location = new System.Drawing.Point(221, 175);
-            this.txtapellido.Multiline = true;
-            this.txtapellido.Name = "txtapellido";
-            this.txtapellido.Size = new System.Drawing.Size(147, 28);
-            this.txtapellido.TabIndex = 85;
-            this.txtapellido.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtApellido.BackColor = System.Drawing.Color.White;
+            this.txtApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtApellido.Location = new System.Drawing.Point(221, 175);
+            this.txtApellido.Multiline = true;
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(147, 28);
+            this.txtApellido.TabIndex = 85;
+            this.txtApellido.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -170,15 +170,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
             this.ClientSize = new System.Drawing.Size(838, 371);
-            this.Controls.Add(this.txtapellido);
+            this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.cmbespecialidad);
-            this.Controls.Add(this.btnguardar);
-            this.Controls.Add(this.btnborrar);
+            this.Controls.Add(this.cmbEspecialidad);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.txttelefono);
+            this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txnombre);
+            this.Controls.Add(this.txNombre);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmAgregarDoctor";
@@ -191,15 +191,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnguardar;
-        private System.Windows.Forms.Button btnborrar;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txttelefono;
+        private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txnombre;
+        private System.Windows.Forms.TextBox txNombre;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmbespecialidad;
-        private System.Windows.Forms.TextBox txtapellido;
+        private System.Windows.Forms.ComboBox cmbEspecialidad;
+        private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.Label label2;
     }
 }

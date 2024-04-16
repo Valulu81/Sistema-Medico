@@ -28,39 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.cmbdoctor = new System.Windows.Forms.ComboBox();
+            this.dgvVerReporte = new System.Windows.Forms.DataGridView();
+            this.cmbDoctor = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txthorario = new System.Windows.Forms.TextBox();
+            this.txtHorario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaAgendada = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbPaciente = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVerReporte)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvVerReporte
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(352, 22);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(452, 275);
-            this.dataGridView1.TabIndex = 55;
+            this.dgvVerReporte.BackgroundColor = System.Drawing.Color.White;
+            this.dgvVerReporte.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvVerReporte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvVerReporte.Location = new System.Drawing.Point(352, 22);
+            this.dgvVerReporte.Name = "dgvVerReporte";
+            this.dgvVerReporte.Size = new System.Drawing.Size(452, 275);
+            this.dgvVerReporte.TabIndex = 55;
             // 
-            // cmbdoctor
+            // cmbDoctor
             // 
-            this.cmbdoctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbdoctor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.cmbdoctor.FormattingEnabled = true;
-            this.cmbdoctor.Location = new System.Drawing.Point(35, 135);
-            this.cmbdoctor.Name = "cmbdoctor";
-            this.cmbdoctor.Size = new System.Drawing.Size(120, 28);
-            this.cmbdoctor.TabIndex = 54;
+            this.cmbDoctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbDoctor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbDoctor.FormattingEnabled = true;
+            this.cmbDoctor.Location = new System.Drawing.Point(35, 135);
+            this.cmbDoctor.Name = "cmbDoctor";
+            this.cmbDoctor.Size = new System.Drawing.Size(120, 28);
+            this.cmbDoctor.TabIndex = 54;
             // 
             // label1
             // 
@@ -74,18 +74,18 @@
             this.label1.Text = "Nombre del Doctor";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // txthorario
+            // txtHorario
             // 
-            this.txthorario.BackColor = System.Drawing.Color.White;
-            this.txthorario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txthorario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txthorario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txthorario.Location = new System.Drawing.Point(35, 269);
-            this.txthorario.Multiline = true;
-            this.txthorario.Name = "txthorario";
-            this.txthorario.Size = new System.Drawing.Size(107, 28);
-            this.txthorario.TabIndex = 52;
-            this.txthorario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtHorario.BackColor = System.Drawing.Color.White;
+            this.txtHorario.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHorario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHorario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtHorario.Location = new System.Drawing.Point(35, 269);
+            this.txtHorario.Multiline = true;
+            this.txtHorario.Name = "txtHorario";
+            this.txtHorario.Size = new System.Drawing.Size(107, 28);
+            this.txtHorario.TabIndex = 52;
+            this.txtHorario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -99,14 +99,14 @@
             this.label3.Text = "Horario";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // dateTimePicker1
+            // dtpFechaAgendada
             // 
-            this.dateTimePicker1.AccessibleDescription = "cmbFechaAgendada";
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.dateTimePicker1.Location = new System.Drawing.Point(35, 205);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(296, 26);
-            this.dateTimePicker1.TabIndex = 50;
+            this.dtpFechaAgendada.AccessibleDescription = "cmbFechaAgendada";
+            this.dtpFechaAgendada.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.dtpFechaAgendada.Location = new System.Drawing.Point(35, 205);
+            this.dtpFechaAgendada.Name = "dtpFechaAgendada";
+            this.dtpFechaAgendada.Size = new System.Drawing.Size(296, 26);
+            this.dtpFechaAgendada.TabIndex = 50;
             // 
             // label5
             // 
@@ -176,12 +176,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
             this.ClientSize = new System.Drawing.Size(838, 371);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.cmbdoctor);
+            this.Controls.Add(this.dgvVerReporte);
+            this.Controls.Add(this.cmbDoctor);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txthorario);
+            this.Controls.Add(this.txtHorario);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpFechaAgendada);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cmbPaciente);
             this.Controls.Add(this.label2);
@@ -190,7 +190,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmVerReporte";
             this.Text = "FrmVerReporte";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvVerReporte)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,12 +198,12 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox cmbdoctor;
+        private System.Windows.Forms.DataGridView dgvVerReporte;
+        private System.Windows.Forms.ComboBox cmbDoctor;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txthorario;
+        private System.Windows.Forms.TextBox txtHorario;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFechaAgendada;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cmbPaciente;
         private System.Windows.Forms.Label label2;

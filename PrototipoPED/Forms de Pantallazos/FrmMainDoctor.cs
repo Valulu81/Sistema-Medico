@@ -48,7 +48,7 @@ namespace PrototipoPED
 
         private void btnRegistrarPacientes_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new FrmCrearReporte());
+            AbrirFormulario(new S());
         }
 
         private void BarraLateral(ref bool btnBlPulsado)

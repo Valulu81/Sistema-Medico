@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmbzona = new System.Windows.Forms.ComboBox();
+            this.cmbZona = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbRangoEdad = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.cmbenfermedad = new System.Windows.Forms.ComboBox();
+            this.cmbEnfermedad = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btncrear = new System.Windows.Forms.Button();
-            this.btnborrar = new System.Windows.Forms.Button();
+            this.btnCrear = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
             this.cmbMes2 = new System.Windows.Forms.ComboBox();
             this.cmbMes1 = new System.Windows.Forms.ComboBox();
             this.pnlGrafica = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // cmbzona
+            // cmbZona
             // 
-            this.cmbzona.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbzona.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.cmbzona.FormattingEnabled = true;
-            this.cmbzona.Location = new System.Drawing.Point(35, 135);
-            this.cmbzona.Name = "cmbzona";
-            this.cmbzona.Size = new System.Drawing.Size(120, 28);
-            this.cmbzona.TabIndex = 65;
+            this.cmbZona.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbZona.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbZona.FormattingEnabled = true;
+            this.cmbZona.Location = new System.Drawing.Point(35, 135);
+            this.cmbZona.Name = "cmbZona";
+            this.cmbZona.Size = new System.Drawing.Size(120, 28);
+            this.cmbZona.TabIndex = 65;
             // 
             // label1
             // 
@@ -101,15 +101,15 @@
             this.label5.Text = "Lapso de tiempo";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // cmbenfermedad
+            // cmbEnfermedad
             // 
-            this.cmbenfermedad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbenfermedad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.cmbenfermedad.FormattingEnabled = true;
-            this.cmbenfermedad.Location = new System.Drawing.Point(35, 65);
-            this.cmbenfermedad.Name = "cmbenfermedad";
-            this.cmbenfermedad.Size = new System.Drawing.Size(120, 28);
-            this.cmbenfermedad.TabIndex = 59;
+            this.cmbEnfermedad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbEnfermedad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbEnfermedad.FormattingEnabled = true;
+            this.cmbEnfermedad.Location = new System.Drawing.Point(35, 65);
+            this.cmbEnfermedad.Name = "cmbEnfermedad";
+            this.cmbEnfermedad.Size = new System.Drawing.Size(120, 28);
+            this.cmbEnfermedad.TabIndex = 59;
             // 
             // label2
             // 
@@ -123,33 +123,33 @@
             this.label2.Text = "Enfermedad";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // btncrear
+            // btnCrear
             // 
-            this.btncrear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
-            this.btncrear.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btncrear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncrear.ForeColor = System.Drawing.Color.White;
-            this.btncrear.Location = new System.Drawing.Point(717, 312);
-            this.btncrear.Name = "btncrear";
-            this.btncrear.Size = new System.Drawing.Size(87, 37);
-            this.btncrear.TabIndex = 57;
-            this.btncrear.Text = "Crear";
-            this.btncrear.UseVisualStyleBackColor = false;
+            this.btnCrear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
+            this.btnCrear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCrear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrear.ForeColor = System.Drawing.Color.White;
+            this.btnCrear.Location = new System.Drawing.Point(717, 312);
+            this.btnCrear.Name = "btnCrear";
+            this.btnCrear.Size = new System.Drawing.Size(87, 37);
+            this.btnCrear.TabIndex = 57;
+            this.btnCrear.Text = "Crear";
+            this.btnCrear.UseVisualStyleBackColor = false;
             // 
-            // btnborrar
+            // btnBorrar
             // 
-            this.btnborrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
-            this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnborrar.ForeColor = System.Drawing.Color.White;
-            this.btnborrar.Location = new System.Drawing.Point(611, 312);
-            this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Size = new System.Drawing.Size(87, 37);
-            this.btnborrar.TabIndex = 56;
-            this.btnborrar.Text = "Borrar";
-            this.btnborrar.UseVisualStyleBackColor = false;
+            this.btnBorrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
+            this.btnBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrar.ForeColor = System.Drawing.Color.White;
+            this.btnBorrar.Location = new System.Drawing.Point(611, 312);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(87, 37);
+            this.btnBorrar.TabIndex = 56;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = false;
             // 
             // cmbMes2
             // 
@@ -188,15 +188,15 @@
             this.Controls.Add(this.pnlGrafica);
             this.Controls.Add(this.cmbMes1);
             this.Controls.Add(this.cmbMes2);
-            this.Controls.Add(this.cmbzona);
+            this.Controls.Add(this.cmbZona);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbRangoEdad);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.cmbenfermedad);
+            this.Controls.Add(this.cmbEnfermedad);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btncrear);
-            this.Controls.Add(this.btnborrar);
+            this.Controls.Add(this.btnCrear);
+            this.Controls.Add(this.btnBorrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmCrearGrafica";
             this.Text = "FrmCrearGrafica";
@@ -206,15 +206,15 @@
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox cmbzona;
+        private System.Windows.Forms.ComboBox cmbZona;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox cmbRangoEdad;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox cmbenfermedad;
+        private System.Windows.Forms.ComboBox cmbEnfermedad;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btncrear;
-        private System.Windows.Forms.Button btnborrar;
+        private System.Windows.Forms.Button btnCrear;
+        private System.Windows.Forms.Button btnBorrar;
         private System.Windows.Forms.ComboBox cmbMes2;
         private System.Windows.Forms.ComboBox cmbMes1;
         private System.Windows.Forms.Panel pnlGrafica;

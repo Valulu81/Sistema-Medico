@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PrototipoPED
 {
-    public partial class FrmCrearReporte : Form
+    public partial class S : Form
     {
-        public FrmCrearReporte()
+        public S()
         {
             InitializeComponent();
         }

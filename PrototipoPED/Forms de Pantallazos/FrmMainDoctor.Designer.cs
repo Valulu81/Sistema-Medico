@@ -34,8 +34,8 @@
             this.btnBarraLateral = new FontAwesome.Sharp.IconButton();
             this.pnlBarraLateral = new System.Windows.Forms.Panel();
             this.btnCrearGrafica = new FontAwesome.Sharp.IconButton();
-            this.btnguardarcitas = new FontAwesome.Sharp.IconButton();
-            this.btncrearreporte = new FontAwesome.Sharp.IconButton();
+            this.btnGuardarCitas = new FontAwesome.Sharp.IconButton();
+            this.btnCrearReporte = new FontAwesome.Sharp.IconButton();
             this.btnRegistrarPacientes = new FontAwesome.Sharp.IconButton();
             this.pnlForm = new System.Windows.Forms.Panel();
             this.pnlUsuario = new System.Windows.Forms.Panel();
@@ -110,8 +110,8 @@
             // 
             this.pnlBarraLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(164)))), ((int)(((byte)(192)))));
             this.pnlBarraLateral.Controls.Add(this.btnCrearGrafica);
-            this.pnlBarraLateral.Controls.Add(this.btnguardarcitas);
-            this.pnlBarraLateral.Controls.Add(this.btncrearreporte);
+            this.pnlBarraLateral.Controls.Add(this.btnGuardarCitas);
+            this.pnlBarraLateral.Controls.Add(this.btnCrearReporte);
             this.pnlBarraLateral.Controls.Add(this.btnRegistrarPacientes);
             this.pnlBarraLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlBarraLateral.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(164)))), ((int)(((byte)(192)))));
@@ -138,37 +138,37 @@
             this.btnCrearGrafica.UseVisualStyleBackColor = true;
             this.btnCrearGrafica.Click += new System.EventHandler(this.iconButton4_Click);
             // 
-            // btnguardarcitas
+            // btnGuardarCitas
             // 
-            this.btnguardarcitas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnguardarcitas.FlatAppearance.BorderSize = 2;
-            this.btnguardarcitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardarcitas.ForeColor = System.Drawing.Color.Transparent;
-            this.btnguardarcitas.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
-            this.btnguardarcitas.IconColor = System.Drawing.Color.White;
-            this.btnguardarcitas.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnguardarcitas.Location = new System.Drawing.Point(0, 184);
-            this.btnguardarcitas.Name = "btnguardarcitas";
-            this.btnguardarcitas.Size = new System.Drawing.Size(85, 92);
-            this.btnguardarcitas.TabIndex = 3;
-            this.btnguardarcitas.UseVisualStyleBackColor = true;
-            this.btnguardarcitas.Click += new System.EventHandler(this.btnguardarcitas_Click);
+            this.btnGuardarCitas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnGuardarCitas.FlatAppearance.BorderSize = 2;
+            this.btnGuardarCitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardarCitas.ForeColor = System.Drawing.Color.Transparent;
+            this.btnGuardarCitas.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btnGuardarCitas.IconColor = System.Drawing.Color.White;
+            this.btnGuardarCitas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnGuardarCitas.Location = new System.Drawing.Point(0, 184);
+            this.btnGuardarCitas.Name = "btnGuardarCitas";
+            this.btnGuardarCitas.Size = new System.Drawing.Size(85, 92);
+            this.btnGuardarCitas.TabIndex = 3;
+            this.btnGuardarCitas.UseVisualStyleBackColor = true;
+            this.btnGuardarCitas.Click += new System.EventHandler(this.btnguardarcitas_Click);
             // 
-            // btncrearreporte
+            // btnCrearReporte
             // 
-            this.btncrearreporte.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btncrearreporte.FlatAppearance.BorderSize = 2;
-            this.btncrearreporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncrearreporte.ForeColor = System.Drawing.Color.Transparent;
-            this.btncrearreporte.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
-            this.btncrearreporte.IconColor = System.Drawing.Color.White;
-            this.btncrearreporte.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btncrearreporte.Location = new System.Drawing.Point(0, 92);
-            this.btncrearreporte.Name = "btncrearreporte";
-            this.btncrearreporte.Size = new System.Drawing.Size(85, 92);
-            this.btncrearreporte.TabIndex = 2;
-            this.btncrearreporte.UseVisualStyleBackColor = true;
-            this.btncrearreporte.Click += new System.EventHandler(this.btncrearreporte_Click);
+            this.btnCrearReporte.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCrearReporte.FlatAppearance.BorderSize = 2;
+            this.btnCrearReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCrearReporte.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCrearReporte.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btnCrearReporte.IconColor = System.Drawing.Color.White;
+            this.btnCrearReporte.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCrearReporte.Location = new System.Drawing.Point(0, 92);
+            this.btnCrearReporte.Name = "btnCrearReporte";
+            this.btnCrearReporte.Size = new System.Drawing.Size(85, 92);
+            this.btnCrearReporte.TabIndex = 2;
+            this.btnCrearReporte.UseVisualStyleBackColor = true;
+            this.btnCrearReporte.Click += new System.EventHandler(this.btncrearreporte_Click);
             // 
             // btnRegistrarPacientes
             // 
@@ -303,8 +303,8 @@
         private FontAwesome.Sharp.IconButton btnLogin;
         private FontAwesome.Sharp.IconButton btnSalir;
         private FontAwesome.Sharp.IconButton btnCrearGrafica;
-        private FontAwesome.Sharp.IconButton btnguardarcitas;
-        private FontAwesome.Sharp.IconButton btncrearreporte;
+        private FontAwesome.Sharp.IconButton btnGuardarCitas;
+        private FontAwesome.Sharp.IconButton btnCrearReporte;
     }
 }
 

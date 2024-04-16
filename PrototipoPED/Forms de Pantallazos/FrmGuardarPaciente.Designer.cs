@@ -29,58 +29,58 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGuardarPaciente));
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtedad = new System.Windows.Forms.TextBox();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
+            this.txtEdad = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.txtnit = new System.Windows.Forms.MaskedTextBox();
+            this.txtNit = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtdui = new System.Windows.Forms.MaskedTextBox();
+            this.txtDui = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.rbtnfemenino = new System.Windows.Forms.RadioButton();
+            this.rbtnFemenino = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
-            this.rbtnmasculino = new System.Windows.Forms.RadioButton();
-            this.txttelefono = new System.Windows.Forms.TextBox();
+            this.rbtnMasculino = new System.Windows.Forms.RadioButton();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.cmbmunicipio = new System.Windows.Forms.ComboBox();
-            this.cmbdepartamento = new System.Windows.Forms.ComboBox();
-            this.cmbzona = new System.Windows.Forms.ComboBox();
-            this.txtdireccion = new System.Windows.Forms.TextBox();
+            this.cmbMunicipio = new System.Windows.Forms.ComboBox();
+            this.cmbDepartamento = new System.Windows.Forms.ComboBox();
+            this.cmbZona = new System.Windows.Forms.ComboBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtapellido2 = new System.Windows.Forms.TextBox();
-            this.txtapellido1 = new System.Windows.Forms.TextBox();
-            this.txtnombre2 = new System.Windows.Forms.TextBox();
-            this.txtnombre1 = new System.Windows.Forms.TextBox();
+            this.txtApellido2 = new System.Windows.Forms.TextBox();
+            this.txtApellido1 = new System.Windows.Forms.TextBox();
+            this.txtNombre2 = new System.Windows.Forms.TextBox();
+            this.txtNombre1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button2
+            // btnGuardar
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnGuardar, "btnGuardar");
+            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnBorrar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnBorrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
+            this.btnBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnBorrar, "btnBorrar");
+            this.btnBorrar.ForeColor = System.Drawing.Color.White;
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.UseVisualStyleBackColor = false;
             // 
-            // txtedad
+            // txtEdad
             // 
-            this.txtedad.BackColor = System.Drawing.Color.White;
-            this.txtedad.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtedad, "txtedad");
-            this.txtedad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtedad.Name = "txtedad";
+            this.txtEdad.BackColor = System.Drawing.Color.White;
+            this.txtEdad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtEdad, "txtEdad");
+            this.txtEdad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtEdad.Name = "txtEdad";
             // 
             // label8
             // 
@@ -88,11 +88,11 @@
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
             this.label8.Name = "label8";
             // 
-            // txtnit
+            // txtNit
             // 
-            resources.ApplyResources(this.txtnit, "txtnit");
-            this.txtnit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtnit.Name = "txtnit";
+            resources.ApplyResources(this.txtNit, "txtNit");
+            this.txtNit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtNit.Name = "txtNit";
             // 
             // label7
             // 
@@ -100,11 +100,11 @@
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
             this.label7.Name = "label7";
             // 
-            // txtdui
+            // txtDui
             // 
-            resources.ApplyResources(this.txtdui, "txtdui");
-            this.txtdui.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtdui.Name = "txtdui";
+            resources.ApplyResources(this.txtDui, "txtDui");
+            this.txtDui.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtDui.Name = "txtDui";
             // 
             // label6
             // 
@@ -123,12 +123,12 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
             this.label5.Name = "label5";
             // 
-            // rbtnfemenino
+            // rbtnFemenino
             // 
-            resources.ApplyResources(this.rbtnfemenino, "rbtnfemenino");
-            this.rbtnfemenino.Name = "rbtnfemenino";
-            this.rbtnfemenino.TabStop = true;
-            this.rbtnfemenino.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.rbtnFemenino, "rbtnFemenino");
+            this.rbtnFemenino.Name = "rbtnFemenino";
+            this.rbtnFemenino.TabStop = true;
+            this.rbtnFemenino.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -136,20 +136,20 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
             this.label4.Name = "label4";
             // 
-            // rbtnmasculino
+            // rbtnMasculino
             // 
-            resources.ApplyResources(this.rbtnmasculino, "rbtnmasculino");
-            this.rbtnmasculino.Name = "rbtnmasculino";
-            this.rbtnmasculino.TabStop = true;
-            this.rbtnmasculino.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.rbtnMasculino, "rbtnMasculino");
+            this.rbtnMasculino.Name = "rbtnMasculino";
+            this.rbtnMasculino.TabStop = true;
+            this.rbtnMasculino.UseVisualStyleBackColor = true;
             // 
-            // txttelefono
+            // txtTelefono
             // 
-            this.txttelefono.BackColor = System.Drawing.Color.White;
-            this.txttelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txttelefono, "txttelefono");
-            this.txttelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txttelefono.Name = "txttelefono";
+            this.txtTelefono.BackColor = System.Drawing.Color.White;
+            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtTelefono, "txtTelefono");
+            this.txtTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtTelefono.Name = "txtTelefono";
             // 
             // label3
             // 
@@ -157,34 +157,34 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
             this.label3.Name = "label3";
             // 
-            // cmbmunicipio
+            // cmbMunicipio
             // 
-            resources.ApplyResources(this.cmbmunicipio, "cmbmunicipio");
-            this.cmbmunicipio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.cmbmunicipio.FormattingEnabled = true;
-            this.cmbmunicipio.Name = "cmbmunicipio";
+            resources.ApplyResources(this.cmbMunicipio, "cmbMunicipio");
+            this.cmbMunicipio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbMunicipio.FormattingEnabled = true;
+            this.cmbMunicipio.Name = "cmbMunicipio";
             // 
-            // cmbdepartamento
+            // cmbDepartamento
             // 
-            resources.ApplyResources(this.cmbdepartamento, "cmbdepartamento");
-            this.cmbdepartamento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.cmbdepartamento.FormattingEnabled = true;
-            this.cmbdepartamento.Name = "cmbdepartamento";
+            resources.ApplyResources(this.cmbDepartamento, "cmbDepartamento");
+            this.cmbDepartamento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbDepartamento.FormattingEnabled = true;
+            this.cmbDepartamento.Name = "cmbDepartamento";
             // 
-            // cmbzona
+            // cmbZona
             // 
-            resources.ApplyResources(this.cmbzona, "cmbzona");
-            this.cmbzona.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.cmbzona.FormattingEnabled = true;
-            this.cmbzona.Name = "cmbzona";
+            resources.ApplyResources(this.cmbZona, "cmbZona");
+            this.cmbZona.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbZona.FormattingEnabled = true;
+            this.cmbZona.Name = "cmbZona";
             // 
-            // txtdireccion
+            // txtDireccion
             // 
-            this.txtdireccion.BackColor = System.Drawing.Color.White;
-            this.txtdireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtdireccion, "txtdireccion");
-            this.txtdireccion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtdireccion.Name = "txtdireccion";
+            this.txtDireccion.BackColor = System.Drawing.Color.White;
+            this.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtDireccion, "txtDireccion");
+            this.txtDireccion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtDireccion.Name = "txtDireccion";
             // 
             // label2
             // 
@@ -192,37 +192,37 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
             this.label2.Name = "label2";
             // 
-            // txtapellido2
+            // txtApellido2
             // 
-            this.txtapellido2.BackColor = System.Drawing.Color.White;
-            this.txtapellido2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtapellido2, "txtapellido2");
-            this.txtapellido2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtapellido2.Name = "txtapellido2";
+            this.txtApellido2.BackColor = System.Drawing.Color.White;
+            this.txtApellido2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtApellido2, "txtApellido2");
+            this.txtApellido2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtApellido2.Name = "txtApellido2";
             // 
-            // txtapellido1
+            // txtApellido1
             // 
-            this.txtapellido1.BackColor = System.Drawing.Color.White;
-            this.txtapellido1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtapellido1, "txtapellido1");
-            this.txtapellido1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtapellido1.Name = "txtapellido1";
+            this.txtApellido1.BackColor = System.Drawing.Color.White;
+            this.txtApellido1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtApellido1, "txtApellido1");
+            this.txtApellido1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtApellido1.Name = "txtApellido1";
             // 
-            // txtnombre2
+            // txtNombre2
             // 
-            this.txtnombre2.BackColor = System.Drawing.Color.White;
-            this.txtnombre2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtnombre2, "txtnombre2");
-            this.txtnombre2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtnombre2.Name = "txtnombre2";
+            this.txtNombre2.BackColor = System.Drawing.Color.White;
+            this.txtNombre2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtNombre2, "txtNombre2");
+            this.txtNombre2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtNombre2.Name = "txtNombre2";
             // 
-            // txtnombre1
+            // txtNombre1
             // 
-            this.txtnombre1.BackColor = System.Drawing.Color.White;
-            this.txtnombre1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtnombre1, "txtnombre1");
-            this.txtnombre1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtnombre1.Name = "txtnombre1";
+            this.txtNombre1.BackColor = System.Drawing.Color.White;
+            this.txtNombre1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.txtNombre1, "txtNombre1");
+            this.txtNombre1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtNombre1.Name = "txtNombre1";
             // 
             // label1
             // 
@@ -235,30 +235,30 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtedad);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnBorrar);
+            this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtnit);
+            this.Controls.Add(this.txtNit);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txtdui);
+            this.Controls.Add(this.txtDui);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dtpFechaNacimiento);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.rbtnfemenino);
+            this.Controls.Add(this.rbtnFemenino);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.rbtnmasculino);
-            this.Controls.Add(this.txttelefono);
+            this.Controls.Add(this.rbtnMasculino);
+            this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.cmbmunicipio);
-            this.Controls.Add(this.cmbdepartamento);
-            this.Controls.Add(this.cmbzona);
-            this.Controls.Add(this.txtdireccion);
+            this.Controls.Add(this.cmbMunicipio);
+            this.Controls.Add(this.cmbDepartamento);
+            this.Controls.Add(this.cmbZona);
+            this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtapellido2);
-            this.Controls.Add(this.txtapellido1);
-            this.Controls.Add(this.txtnombre2);
-            this.Controls.Add(this.txtnombre1);
+            this.Controls.Add(this.txtApellido2);
+            this.Controls.Add(this.txtApellido1);
+            this.Controls.Add(this.txtNombre2);
+            this.Controls.Add(this.txtNombre1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmGuardarPaciente";
@@ -269,30 +269,30 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtedad;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnBorrar;
+        private System.Windows.Forms.TextBox txtEdad;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.MaskedTextBox txtnit;
+        private System.Windows.Forms.MaskedTextBox txtNit;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.MaskedTextBox txtdui;
+        private System.Windows.Forms.MaskedTextBox txtDui;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton rbtnfemenino;
+        private System.Windows.Forms.RadioButton rbtnFemenino;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton rbtnmasculino;
-        private System.Windows.Forms.TextBox txttelefono;
+        private System.Windows.Forms.RadioButton rbtnMasculino;
+        private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cmbmunicipio;
-        private System.Windows.Forms.ComboBox cmbdepartamento;
-        private System.Windows.Forms.ComboBox cmbzona;
-        private System.Windows.Forms.TextBox txtdireccion;
+        private System.Windows.Forms.ComboBox cmbMunicipio;
+        private System.Windows.Forms.ComboBox cmbDepartamento;
+        private System.Windows.Forms.ComboBox cmbZona;
+        private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtapellido2;
-        private System.Windows.Forms.TextBox txtapellido1;
-        private System.Windows.Forms.TextBox txtnombre2;
-        private System.Windows.Forms.TextBox txtnombre1;
+        private System.Windows.Forms.TextBox txtApellido2;
+        private System.Windows.Forms.TextBox txtApellido1;
+        private System.Windows.Forms.TextBox txtNombre2;
+        private System.Windows.Forms.TextBox txtNombre1;
         private System.Windows.Forms.Label label1;
     }
 }

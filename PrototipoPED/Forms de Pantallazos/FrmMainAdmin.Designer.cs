@@ -34,13 +34,13 @@
             this.btnBarraLateral = new FontAwesome.Sharp.IconButton();
             this.pnlForm = new System.Windows.Forms.Panel();
             this.pnlUsuario = new System.Windows.Forms.Panel();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.btnAjustes = new FontAwesome.Sharp.IconButton();
             this.btnLogin = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.pnlBarraLateral = new System.Windows.Forms.Panel();
             this.btnAgregarDoctor = new FontAwesome.Sharp.IconButton();
-            this.btnguardarcitas = new FontAwesome.Sharp.IconButton();
-            this.btncverdatospaciente = new FontAwesome.Sharp.IconButton();
+            this.btnGuardarCitas = new FontAwesome.Sharp.IconButton();
+            this.btnVerDatosPaciente = new FontAwesome.Sharp.IconButton();
             this.btnRegistrarPacientes = new FontAwesome.Sharp.IconButton();
             this.pnlNav.SuspendLayout();
             this.pnlForm.SuspendLayout();
@@ -119,7 +119,7 @@
             // pnlUsuario
             // 
             this.pnlUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(74)))), ((int)(((byte)(129)))));
-            this.pnlUsuario.Controls.Add(this.iconButton3);
+            this.pnlUsuario.Controls.Add(this.btnAjustes);
             this.pnlUsuario.Controls.Add(this.btnLogin);
             this.pnlUsuario.Controls.Add(this.btnSalir);
             this.pnlUsuario.Location = new System.Drawing.Point(710, 5);
@@ -128,24 +128,24 @@
             this.pnlUsuario.TabIndex = 4;
             this.pnlUsuario.Visible = false;
             // 
-            // iconButton3
+            // btnAjustes
             // 
-            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.ForeColor = System.Drawing.Color.White;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.UserGear;
-            this.iconButton3.IconColor = System.Drawing.Color.White;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 110);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(121, 55);
-            this.iconButton3.TabIndex = 4;
-            this.iconButton3.Text = "Ajustes";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.btnAjustes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAjustes.FlatAppearance.BorderSize = 0;
+            this.btnAjustes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAjustes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAjustes.ForeColor = System.Drawing.Color.White;
+            this.btnAjustes.IconChar = FontAwesome.Sharp.IconChar.UserGear;
+            this.btnAjustes.IconColor = System.Drawing.Color.White;
+            this.btnAjustes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAjustes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAjustes.Location = new System.Drawing.Point(0, 110);
+            this.btnAjustes.Name = "btnAjustes";
+            this.btnAjustes.Size = new System.Drawing.Size(121, 55);
+            this.btnAjustes.TabIndex = 4;
+            this.btnAjustes.Text = "Ajustes";
+            this.btnAjustes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAjustes.UseVisualStyleBackColor = true;
             // 
             // btnLogin
             // 
@@ -191,8 +191,8 @@
             // 
             this.pnlBarraLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(164)))), ((int)(((byte)(192)))));
             this.pnlBarraLateral.Controls.Add(this.btnAgregarDoctor);
-            this.pnlBarraLateral.Controls.Add(this.btnguardarcitas);
-            this.pnlBarraLateral.Controls.Add(this.btncverdatospaciente);
+            this.pnlBarraLateral.Controls.Add(this.btnGuardarCitas);
+            this.pnlBarraLateral.Controls.Add(this.btnVerDatosPaciente);
             this.pnlBarraLateral.Controls.Add(this.btnRegistrarPacientes);
             this.pnlBarraLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlBarraLateral.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(164)))), ((int)(((byte)(192)))));
@@ -218,37 +218,37 @@
             this.btnAgregarDoctor.UseVisualStyleBackColor = true;
             this.btnAgregarDoctor.Click += new System.EventHandler(this.iconButton4_Click);
             // 
-            // btnguardarcitas
+            // btnGuardarCitas
             // 
-            this.btnguardarcitas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnguardarcitas.FlatAppearance.BorderSize = 2;
-            this.btnguardarcitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardarcitas.ForeColor = System.Drawing.Color.Transparent;
-            this.btnguardarcitas.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
-            this.btnguardarcitas.IconColor = System.Drawing.Color.White;
-            this.btnguardarcitas.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnguardarcitas.Location = new System.Drawing.Point(0, 184);
-            this.btnguardarcitas.Name = "btnguardarcitas";
-            this.btnguardarcitas.Size = new System.Drawing.Size(85, 92);
-            this.btnguardarcitas.TabIndex = 3;
-            this.btnguardarcitas.UseVisualStyleBackColor = true;
-            this.btnguardarcitas.Click += new System.EventHandler(this.btnguardarcitas_Click);
+            this.btnGuardarCitas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnGuardarCitas.FlatAppearance.BorderSize = 2;
+            this.btnGuardarCitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardarCitas.ForeColor = System.Drawing.Color.Transparent;
+            this.btnGuardarCitas.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btnGuardarCitas.IconColor = System.Drawing.Color.White;
+            this.btnGuardarCitas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnGuardarCitas.Location = new System.Drawing.Point(0, 184);
+            this.btnGuardarCitas.Name = "btnGuardarCitas";
+            this.btnGuardarCitas.Size = new System.Drawing.Size(85, 92);
+            this.btnGuardarCitas.TabIndex = 3;
+            this.btnGuardarCitas.UseVisualStyleBackColor = true;
+            this.btnGuardarCitas.Click += new System.EventHandler(this.btnguardarcitas_Click);
             // 
-            // btncverdatospaciente
+            // btnVerDatosPaciente
             // 
-            this.btncverdatospaciente.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btncverdatospaciente.FlatAppearance.BorderSize = 2;
-            this.btncverdatospaciente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncverdatospaciente.ForeColor = System.Drawing.Color.Transparent;
-            this.btncverdatospaciente.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
-            this.btncverdatospaciente.IconColor = System.Drawing.Color.White;
-            this.btncverdatospaciente.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btncverdatospaciente.Location = new System.Drawing.Point(0, 92);
-            this.btncverdatospaciente.Name = "btncverdatospaciente";
-            this.btncverdatospaciente.Size = new System.Drawing.Size(85, 92);
-            this.btncverdatospaciente.TabIndex = 2;
-            this.btncverdatospaciente.UseVisualStyleBackColor = true;
-            this.btncverdatospaciente.Click += new System.EventHandler(this.btncrearreporte_Click);
+            this.btnVerDatosPaciente.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnVerDatosPaciente.FlatAppearance.BorderSize = 2;
+            this.btnVerDatosPaciente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerDatosPaciente.ForeColor = System.Drawing.Color.Transparent;
+            this.btnVerDatosPaciente.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btnVerDatosPaciente.IconColor = System.Drawing.Color.White;
+            this.btnVerDatosPaciente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnVerDatosPaciente.Location = new System.Drawing.Point(0, 92);
+            this.btnVerDatosPaciente.Name = "btnVerDatosPaciente";
+            this.btnVerDatosPaciente.Size = new System.Drawing.Size(85, 92);
+            this.btnVerDatosPaciente.TabIndex = 2;
+            this.btnVerDatosPaciente.UseVisualStyleBackColor = true;
+            this.btnVerDatosPaciente.Click += new System.EventHandler(this.btncrearreporte_Click);
             // 
             // btnRegistrarPacientes
             // 
@@ -293,13 +293,13 @@
         private FontAwesome.Sharp.IconButton btnBarraLateral;
         private System.Windows.Forms.Panel pnlForm;
         private System.Windows.Forms.Panel pnlUsuario;
-        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton btnAjustes;
         private FontAwesome.Sharp.IconButton btnLogin;
         private FontAwesome.Sharp.IconButton btnSalir;
         private System.Windows.Forms.Panel pnlBarraLateral;
         private FontAwesome.Sharp.IconButton btnAgregarDoctor;
-        private FontAwesome.Sharp.IconButton btnguardarcitas;
-        private FontAwesome.Sharp.IconButton btncverdatospaciente;
+        private FontAwesome.Sharp.IconButton btnGuardarCitas;
+        private FontAwesome.Sharp.IconButton btnVerDatosPaciente;
         private FontAwesome.Sharp.IconButton btnRegistrarPacientes;
     }
 }

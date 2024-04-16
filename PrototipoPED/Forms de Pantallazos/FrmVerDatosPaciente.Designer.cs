@@ -28,67 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnbuscar = new System.Windows.Forms.Button();
-            this.btnborrar = new System.Windows.Forms.Button();
-            this.txtedad = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
+            this.txtEdad = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txttelefono = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtdireccion = new System.Windows.Forms.TextBox();
-            this.txtnit = new System.Windows.Forms.TextBox();
-            this.txtdui = new System.Windows.Forms.TextBox();
-            this.txtsexo = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtNit = new System.Windows.Forms.TextBox();
+            this.txtDui = new System.Windows.Forms.TextBox();
+            this.txtSexo = new System.Windows.Forms.TextBox();
             this.cmbPaciente = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dgvFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
-            // btnbuscar
+            // btnBuscar
             // 
-            this.btnbuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
-            this.btnbuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbuscar.ForeColor = System.Drawing.Color.White;
-            this.btnbuscar.Location = new System.Drawing.Point(723, 300);
-            this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.Size = new System.Drawing.Size(87, 37);
-            this.btnbuscar.TabIndex = 82;
-            this.btnbuscar.Text = "Buscar";
-            this.btnbuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
+            this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.ForeColor = System.Drawing.Color.White;
+            this.btnBuscar.Location = new System.Drawing.Point(723, 300);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(87, 37);
+            this.btnBuscar.TabIndex = 82;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
             // 
-            // btnborrar
+            // btnBorrar
             // 
-            this.btnborrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
-            this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnborrar.ForeColor = System.Drawing.Color.White;
-            this.btnborrar.Location = new System.Drawing.Point(617, 300);
-            this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Size = new System.Drawing.Size(87, 37);
-            this.btnborrar.TabIndex = 81;
-            this.btnborrar.Text = "Borrar";
-            this.btnborrar.UseVisualStyleBackColor = false;
+            this.btnBorrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
+            this.btnBorrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBorrar.ForeColor = System.Drawing.Color.White;
+            this.btnBorrar.Location = new System.Drawing.Point(617, 300);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(87, 37);
+            this.btnBorrar.TabIndex = 81;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = false;
             // 
-            // txtedad
+            // txtEdad
             // 
-            this.txtedad.BackColor = System.Drawing.Color.White;
-            this.txtedad.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtedad.Enabled = false;
-            this.txtedad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtedad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtedad.Location = new System.Drawing.Point(499, 242);
-            this.txtedad.Multiline = true;
-            this.txtedad.Name = "txtedad";
-            this.txtedad.Size = new System.Drawing.Size(63, 28);
-            this.txtedad.TabIndex = 80;
-            this.txtedad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEdad.BackColor = System.Drawing.Color.White;
+            this.txtEdad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEdad.Enabled = false;
+            this.txtEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEdad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtEdad.Location = new System.Drawing.Point(499, 242);
+            this.txtEdad.Multiline = true;
+            this.txtEdad.Name = "txtEdad";
+            this.txtEdad.Size = new System.Drawing.Size(63, 28);
+            this.txtEdad.TabIndex = 80;
+            this.txtEdad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label8
             // 
@@ -151,19 +151,19 @@
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // txttelefono
+            // txtTelefono
             // 
-            this.txttelefono.BackColor = System.Drawing.Color.White;
-            this.txttelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txttelefono.Enabled = false;
-            this.txttelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txttelefono.Location = new System.Drawing.Point(32, 232);
-            this.txttelefono.Multiline = true;
-            this.txttelefono.Name = "txttelefono";
-            this.txttelefono.Size = new System.Drawing.Size(107, 28);
-            this.txttelefono.TabIndex = 69;
-            this.txttelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTelefono.BackColor = System.Drawing.Color.White;
+            this.txtTelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTelefono.Enabled = false;
+            this.txtTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtTelefono.Location = new System.Drawing.Point(32, 232);
+            this.txtTelefono.Multiline = true;
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(107, 28);
+            this.txtTelefono.TabIndex = 69;
+            this.txtTelefono.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -202,62 +202,62 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // txtdireccion
+            // txtDireccion
             // 
-            this.txtdireccion.BackColor = System.Drawing.Color.White;
-            this.txtdireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtdireccion.Enabled = false;
-            this.txtdireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdireccion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtdireccion.Location = new System.Drawing.Point(32, 127);
-            this.txtdireccion.Multiline = true;
-            this.txtdireccion.Name = "txtdireccion";
-            this.txtdireccion.Size = new System.Drawing.Size(373, 65);
-            this.txtdireccion.TabIndex = 83;
-            this.txtdireccion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDireccion.BackColor = System.Drawing.Color.White;
+            this.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDireccion.Enabled = false;
+            this.txtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtDireccion.Location = new System.Drawing.Point(32, 127);
+            this.txtDireccion.Multiline = true;
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(373, 65);
+            this.txtDireccion.TabIndex = 83;
+            this.txtDireccion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtnit
+            // txtNit
             // 
-            this.txtnit.BackColor = System.Drawing.Color.White;
-            this.txtnit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtnit.Enabled = false;
-            this.txtnit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtnit.Location = new System.Drawing.Point(499, 181);
-            this.txtnit.Multiline = true;
-            this.txtnit.Name = "txtnit";
-            this.txtnit.Size = new System.Drawing.Size(154, 28);
-            this.txtnit.TabIndex = 86;
-            this.txtnit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNit.BackColor = System.Drawing.Color.White;
+            this.txtNit.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNit.Enabled = false;
+            this.txtNit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtNit.Location = new System.Drawing.Point(499, 181);
+            this.txtNit.Multiline = true;
+            this.txtNit.Name = "txtNit";
+            this.txtNit.Size = new System.Drawing.Size(154, 28);
+            this.txtNit.TabIndex = 86;
+            this.txtNit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtdui
+            // txtDui
             // 
-            this.txtdui.BackColor = System.Drawing.Color.White;
-            this.txtdui.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtdui.Enabled = false;
-            this.txtdui.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdui.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtdui.Location = new System.Drawing.Point(499, 123);
-            this.txtdui.Multiline = true;
-            this.txtdui.Name = "txtdui";
-            this.txtdui.Size = new System.Drawing.Size(154, 28);
-            this.txtdui.TabIndex = 87;
-            this.txtdui.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDui.BackColor = System.Drawing.Color.White;
+            this.txtDui.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDui.Enabled = false;
+            this.txtDui.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDui.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtDui.Location = new System.Drawing.Point(499, 123);
+            this.txtDui.Multiline = true;
+            this.txtDui.Name = "txtDui";
+            this.txtDui.Size = new System.Drawing.Size(154, 28);
+            this.txtDui.TabIndex = 87;
+            this.txtDui.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // txtsexo
+            // txtSexo
             // 
-            this.txtsexo.BackColor = System.Drawing.Color.White;
-            this.txtsexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtsexo.Enabled = false;
-            this.txtsexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.txtsexo.Location = new System.Drawing.Point(32, 298);
-            this.txtsexo.Multiline = true;
-            this.txtsexo.Name = "txtsexo";
-            this.txtsexo.Size = new System.Drawing.Size(107, 28);
-            this.txtsexo.TabIndex = 89;
-            this.txtsexo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtsexo.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
+            this.txtSexo.BackColor = System.Drawing.Color.White;
+            this.txtSexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSexo.Enabled = false;
+            this.txtSexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSexo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.txtSexo.Location = new System.Drawing.Point(32, 298);
+            this.txtSexo.Multiline = true;
+            this.txtSexo.Name = "txtSexo";
+            this.txtSexo.Size = new System.Drawing.Size(107, 28);
+            this.txtSexo.TabIndex = 89;
+            this.txtSexo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSexo.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
             // 
             // cmbPaciente
             // 
@@ -268,15 +268,15 @@
             this.cmbPaciente.Size = new System.Drawing.Size(373, 28);
             this.cmbPaciente.TabIndex = 90;
             // 
-            // dateTimePicker1
+            // dgvFechaNacimiento
             // 
-            this.dateTimePicker1.AccessibleDescription = "cmbFechaAgendada";
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(499, 64);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(311, 26);
-            this.dateTimePicker1.TabIndex = 91;
+            this.dgvFechaNacimiento.AccessibleDescription = "cmbFechaAgendada";
+            this.dgvFechaNacimiento.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvFechaNacimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvFechaNacimiento.Location = new System.Drawing.Point(499, 64);
+            this.dgvFechaNacimiento.Name = "dgvFechaNacimiento";
+            this.dgvFechaNacimiento.Size = new System.Drawing.Size(311, 26);
+            this.dgvFechaNacimiento.TabIndex = 91;
             // 
             // FrmVerDatosPaciente
             // 
@@ -285,23 +285,23 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
             this.ClientSize = new System.Drawing.Size(838, 371);
             this.Controls.Add(this.cmbPaciente);
-            this.Controls.Add(this.txtsexo);
-            this.Controls.Add(this.txtnit);
-            this.Controls.Add(this.btnbuscar);
-            this.Controls.Add(this.btnborrar);
-            this.Controls.Add(this.txtedad);
+            this.Controls.Add(this.txtSexo);
+            this.Controls.Add(this.txtNit);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.btnBorrar);
+            this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txttelefono);
+            this.Controls.Add(this.txtTelefono);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtdui);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.txtdireccion);
+            this.Controls.Add(this.txtDui);
+            this.Controls.Add(this.dgvFechaNacimiento);
+            this.Controls.Add(this.txtDireccion);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmVerDatosPaciente";
             this.Text = "FrmVerDatosPaciente";
@@ -313,23 +313,23 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnbuscar;
-        private System.Windows.Forms.Button btnborrar;
-        private System.Windows.Forms.TextBox txtedad;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Button btnBorrar;
+        private System.Windows.Forms.TextBox txtEdad;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txttelefono;
+        private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtdireccion;
-        private System.Windows.Forms.TextBox txtnit;
-        private System.Windows.Forms.TextBox txtdui;
-        private System.Windows.Forms.TextBox txtsexo;
+        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.TextBox txtNit;
+        private System.Windows.Forms.TextBox txtDui;
+        private System.Windows.Forms.TextBox txtSexo;
         private System.Windows.Forms.ComboBox cmbPaciente;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dgvFechaNacimiento;
     }
 }

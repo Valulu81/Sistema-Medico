@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrototipoPED.Clases
 {
-    internal class Paciente
+    public class Paciente
     {
         private string primer_nombre;
         private string segundo_nombre;
