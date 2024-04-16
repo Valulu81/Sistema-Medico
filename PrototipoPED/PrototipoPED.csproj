@@ -53,6 +53,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\CitaMedica.cs" />
+    <Compile Include="Clases\Medico.cs" />
+    <Compile Include="Clases\Paciente.cs" />
+    <Compile Include="Clases\Reporte.cs" />
+    <Compile Include="Clases\SignosVitales.cs" />
     <Compile Include="Forms de Pantallazos\FrmAgregarDoctor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,8 +182,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Clases\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
