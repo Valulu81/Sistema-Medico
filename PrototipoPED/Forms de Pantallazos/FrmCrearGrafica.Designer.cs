@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbzona = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cmbRangoEdad = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbenfermedad = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.btncrear = new System.Windows.Forms.Button();
+            this.btnborrar = new System.Windows.Forms.Button();
+            this.cmbMes2 = new System.Windows.Forms.ComboBox();
+            this.cmbMes1 = new System.Windows.Forms.ComboBox();
+            this.pnlGrafica = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // comboBox2
+            // cmbzona
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(35, 135);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(120, 28);
-            this.comboBox2.TabIndex = 65;
+            this.cmbzona.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbzona.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbzona.FormattingEnabled = true;
+            this.cmbzona.Location = new System.Drawing.Point(35, 135);
+            this.cmbzona.Name = "cmbzona";
+            this.cmbzona.Size = new System.Drawing.Size(120, 28);
+            this.cmbzona.TabIndex = 65;
             // 
             // label1
             // 
@@ -64,18 +64,18 @@
             this.label1.Text = "Zona";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // textBox6
+            // cmbRangoEdad
             // 
-            this.textBox6.BackColor = System.Drawing.Color.White;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.textBox6.Location = new System.Drawing.Point(35, 280);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(107, 28);
-            this.textBox6.TabIndex = 63;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cmbRangoEdad.BackColor = System.Drawing.Color.White;
+            this.cmbRangoEdad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cmbRangoEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbRangoEdad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbRangoEdad.Location = new System.Drawing.Point(35, 280);
+            this.cmbRangoEdad.Multiline = true;
+            this.cmbRangoEdad.Name = "cmbRangoEdad";
+            this.cmbRangoEdad.Size = new System.Drawing.Size(107, 28);
+            this.cmbRangoEdad.TabIndex = 63;
+            this.cmbRangoEdad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -101,15 +101,15 @@
             this.label5.Text = "Lapso de tiempo";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBox1
+            // cmbenfermedad
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(35, 65);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(120, 28);
-            this.comboBox1.TabIndex = 59;
+            this.cmbenfermedad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbenfermedad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbenfermedad.FormattingEnabled = true;
+            this.cmbenfermedad.Location = new System.Drawing.Point(35, 65);
+            this.cmbenfermedad.Name = "cmbenfermedad";
+            this.cmbenfermedad.Size = new System.Drawing.Size(120, 28);
+            this.cmbenfermedad.TabIndex = 59;
             // 
             // label2
             // 
@@ -123,61 +123,61 @@
             this.label2.Text = "Enfermedad";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // button2
+            // btncrear
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(717, 312);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(87, 37);
-            this.button2.TabIndex = 57;
-            this.button2.Text = "Crear";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btncrear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(182)))), ((int)(((byte)(150)))));
+            this.btncrear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncrear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncrear.ForeColor = System.Drawing.Color.White;
+            this.btncrear.Location = new System.Drawing.Point(717, 312);
+            this.btncrear.Name = "btncrear";
+            this.btncrear.Size = new System.Drawing.Size(87, 37);
+            this.btncrear.TabIndex = 57;
+            this.btncrear.Text = "Crear";
+            this.btncrear.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnborrar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(611, 312);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 37);
-            this.button1.TabIndex = 56;
-            this.button1.Text = "Borrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnborrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(132)))), ((int)(((byte)(134)))));
+            this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnborrar.ForeColor = System.Drawing.Color.White;
+            this.btnborrar.Location = new System.Drawing.Point(611, 312);
+            this.btnborrar.Name = "btnborrar";
+            this.btnborrar.Size = new System.Drawing.Size(87, 37);
+            this.btnborrar.TabIndex = 56;
+            this.btnborrar.Text = "Borrar";
+            this.btnborrar.UseVisualStyleBackColor = false;
             // 
-            // comboBox3
+            // cmbMes2
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(173, 207);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(120, 28);
-            this.comboBox3.TabIndex = 67;
+            this.cmbMes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMes2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbMes2.FormattingEnabled = true;
+            this.cmbMes2.Location = new System.Drawing.Point(173, 207);
+            this.cmbMes2.Name = "cmbMes2";
+            this.cmbMes2.Size = new System.Drawing.Size(120, 28);
+            this.cmbMes2.TabIndex = 67;
             // 
-            // comboBox4
+            // cmbMes1
             // 
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(35, 207);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(120, 28);
-            this.comboBox4.TabIndex = 68;
+            this.cmbMes1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbMes1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(112)))));
+            this.cmbMes1.FormattingEnabled = true;
+            this.cmbMes1.Location = new System.Drawing.Point(35, 207);
+            this.cmbMes1.Name = "cmbMes1";
+            this.cmbMes1.Size = new System.Drawing.Size(120, 28);
+            this.cmbMes1.TabIndex = 68;
             // 
-            // panel1
+            // pnlGrafica
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(352, 22);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(452, 275);
-            this.panel1.TabIndex = 69;
+            this.pnlGrafica.BackColor = System.Drawing.Color.White;
+            this.pnlGrafica.Location = new System.Drawing.Point(352, 22);
+            this.pnlGrafica.Name = "pnlGrafica";
+            this.pnlGrafica.Size = new System.Drawing.Size(452, 275);
+            this.pnlGrafica.TabIndex = 69;
             // 
             // FrmCrearGrafica
             // 
@@ -185,18 +185,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(230)))), ((int)(((byte)(247)))));
             this.ClientSize = new System.Drawing.Size(838, 371);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.pnlGrafica);
+            this.Controls.Add(this.cmbMes1);
+            this.Controls.Add(this.cmbMes2);
+            this.Controls.Add(this.cmbzona);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.cmbRangoEdad);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbenfermedad);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btncrear);
+            this.Controls.Add(this.btnborrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmCrearGrafica";
             this.Text = "FrmCrearGrafica";
@@ -206,17 +206,17 @@
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbzona;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox cmbRangoEdad;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbenfermedad;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btncrear;
+        private System.Windows.Forms.Button btnborrar;
+        private System.Windows.Forms.ComboBox cmbMes2;
+        private System.Windows.Forms.ComboBox cmbMes1;
+        private System.Windows.Forms.Panel pnlGrafica;
     }
 }

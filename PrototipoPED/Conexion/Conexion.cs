@@ -10,75 +10,76 @@ namespace PrototipoPED.ConexionBD
 {
     public class Conexion
     {
-        private string ConecStr = "data source=localhost; initial catalog=Clinica;" +
-        " persist security info=True; Integrated Security=SSPI; ";
+        //    private string ConecStr = "data source=localhost; initial catalog=Clinica;" +
+        //    " persist security info=True; Integrated Security=SSPI; ";
 
-        public void AgregarPaciente(string pnom, string snom, string pape, string sape, string dir, string tel, string sex, DateTime fecha, string dui, string nit)
-        {
-            string query = "exec administracion.InscribirPaciente " +
-                "@pnom, @snom, @pape, @sape, @dir, @tel, @sex, @fecha, @dui, @nit";
+        //    public void AgregarPaciente(string pnom, string snom, string pape, string sape, string dir, string tel, string sex, DateTime fecha, string dui, string nit)
+        //    {
+        //        string query = "exec administracion.InscribirPaciente " +
+        //            "@pnom, @snom, @pape, @sape, @dir, @tel, @sex, @fecha, @dui, @nit";
 
-            using (SqlConnection cnn = new SqlConnection(ConecStr))
-            {
-                try
-                {
-                    cnn.Open();
-                    SqlCommand cmd = new SqlCommand(query, cnn);
+        //        using (SqlConnection cnn = new SqlConnection(ConecStr))
+        //        {
+        //            try
+        //            {
+        //                cnn.Open();
+        //                SqlCommand cmd = new SqlCommand(query, cnn);
 
-                    cmd.Parameters.AddWithValue("@pnom", pnom);
-                    cmd.Parameters.AddWithValue("@snom", snom);
-                    cmd.Parameters.AddWithValue("@pape", pape);
-                    cmd.Parameters.AddWithValue("@sape", sape);
-                    cmd.Parameters.AddWithValue("@dir", dir);
-                    cmd.Parameters.AddWithValue("@tel", tel);
-                    cmd.Parameters.AddWithValue("@sex", sex);
-                    cmd.Parameters.AddWithValue("@fecha",fecha);
-                    cmd.Parameters.AddWithValue("@dui", dui);
-                    cmd.Parameters.AddWithValue("@nit", nit);
+        //                cmd.Parameters.AddWithValue("@pnom", pnom);
+        //                cmd.Parameters.AddWithValue("@snom", snom);
+        //                cmd.Parameters.AddWithValue("@pape", pape);
+        //                cmd.Parameters.AddWithValue("@sape", sape);
+        //                cmd.Parameters.AddWithValue("@dir", dir);
+        //                cmd.Parameters.AddWithValue("@tel", tel);
+        //                cmd.Parameters.AddWithValue("@sex", sex);
+        //                cmd.Parameters.AddWithValue("@fecha",fecha);
+        //                cmd.Parameters.AddWithValue("@dui", dui);
+        //                cmd.Parameters.AddWithValue("@nit", nit);
 
-                    cmd.ExecuteNonQuery();
-                    cnn.Close();
-                }
-                catch (Exception ex) { throw new Exception("Error en la bd: " + ex.Message); }
-            }
-        }
+        //                cmd.ExecuteNonQuery();
+        //                cnn.Close();
+        //            }
+        //            catch (Exception ex) { throw new Exception("Error en la bd: " + ex.Message); }
+        //        }
+        //    }
 
-        /*
-        public Paciente DatosPaciente(string nomb)
-        {
-            string query = "select id,nombre,apellido,edad from personas" +
-                " where id=@id";
 
-            using (SqlConnection conn = new SqlConnection(ConectString))
-            {
-                SqlCommand cmd = new SqlCommand(query, conn);
+        //    public Paciente DatosPaciente(string nomb)
+        //    {
+        //        string query = "select codPaciente, primerNombre, primerApellido,edad from personas" +
+        //            " where id=@id";
 
-                cmd.Parameters.AddWithValue("@id", id);
+        //        using (SqlConnection conn = new SqlConnection(ConecStr))
+        //        {
+        //            SqlCommand cmd = new SqlCommand(query, conn);
 
-                try
-                {
-                    conn.Open();
-                    SqlDataReader reader = cmd.ExecuteReader();
+        //            cmd.Parameters.AddWithValue("@id", id);
 
-                    Personas per = new Personas();
-                    reader.Read();
+        //            try
+        //            {
+        //                conn.Open();
+        //                SqlDataReader reader = cmd.ExecuteReader();
 
-                    per.Id = reader.GetInt32(0);
-                    per.Nombre = reader.GetString(1);
-                    per.Apellido = reader.GetString(2);
-                    per.Edad = reader.GetInt32(3);
+        //                Paciente per = new Paciente();
+        //                reader.Read();
 
-                    reader.Close();
-                    conn.Close();
+        //                per.Id = reader.GetInt32(0);
+        //                per.Nombre = reader.GetString(1);
+        //                per.Apellido = reader.GetString(2);
+        //                per.Edad = reader.GetInt32(3);
 
-                    return per;
-                }
-                catch (Exception ex)
-                {
-                    throw new Exception("Hay un error en la bd: " + ex.Message);
-                }
+        //                reader.Close();
+        //                conn.Close();
 
-            }
-        }*/
+        //                return per;
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                throw new Exception("Hay un error en la bd: " + ex.Message);
+        //            }
+
+        //        }
+        //    }
+        
     }
 }

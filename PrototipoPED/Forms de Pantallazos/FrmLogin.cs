@@ -21,7 +21,7 @@ namespace PrototipoPED
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             string usuario;
-            usuario = textBox1.Text;
+            usuario = txtusuario.Text;
             if (usuario=="admin")
             {
                 FrmMainAdmin admin = new FrmMainAdmin();

@@ -38,9 +38,9 @@
             this.btnLogin = new FontAwesome.Sharp.IconButton();
             this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.pnlBarraLateral = new System.Windows.Forms.Panel();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
+            this.btnAgregarDoctor = new FontAwesome.Sharp.IconButton();
             this.btnguardarcitas = new FontAwesome.Sharp.IconButton();
-            this.btncrearreporte = new FontAwesome.Sharp.IconButton();
+            this.btncverdatospaciente = new FontAwesome.Sharp.IconButton();
             this.btnRegistrarPacientes = new FontAwesome.Sharp.IconButton();
             this.pnlNav.SuspendLayout();
             this.pnlForm.SuspendLayout();
@@ -190,9 +190,9 @@
             // pnlBarraLateral
             // 
             this.pnlBarraLateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(164)))), ((int)(((byte)(192)))));
-            this.pnlBarraLateral.Controls.Add(this.iconButton4);
+            this.pnlBarraLateral.Controls.Add(this.btnAgregarDoctor);
             this.pnlBarraLateral.Controls.Add(this.btnguardarcitas);
-            this.pnlBarraLateral.Controls.Add(this.btncrearreporte);
+            this.pnlBarraLateral.Controls.Add(this.btncverdatospaciente);
             this.pnlBarraLateral.Controls.Add(this.btnRegistrarPacientes);
             this.pnlBarraLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlBarraLateral.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(164)))), ((int)(((byte)(192)))));
@@ -202,21 +202,21 @@
             this.pnlBarraLateral.TabIndex = 2;
             this.pnlBarraLateral.Visible = false;
             // 
-            // iconButton4
+            // btnAgregarDoctor
             // 
-            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton4.FlatAppearance.BorderSize = 2;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.ForeColor = System.Drawing.Color.Transparent;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
-            this.iconButton4.IconColor = System.Drawing.Color.White;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.Location = new System.Drawing.Point(0, 276);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(85, 92);
-            this.iconButton4.TabIndex = 4;
-            this.iconButton4.UseVisualStyleBackColor = true;
-            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
+            this.btnAgregarDoctor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAgregarDoctor.FlatAppearance.BorderSize = 2;
+            this.btnAgregarDoctor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarDoctor.ForeColor = System.Drawing.Color.Transparent;
+            this.btnAgregarDoctor.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btnAgregarDoctor.IconColor = System.Drawing.Color.White;
+            this.btnAgregarDoctor.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAgregarDoctor.Location = new System.Drawing.Point(0, 276);
+            this.btnAgregarDoctor.Name = "btnAgregarDoctor";
+            this.btnAgregarDoctor.Size = new System.Drawing.Size(85, 92);
+            this.btnAgregarDoctor.TabIndex = 4;
+            this.btnAgregarDoctor.UseVisualStyleBackColor = true;
+            this.btnAgregarDoctor.Click += new System.EventHandler(this.iconButton4_Click);
             // 
             // btnguardarcitas
             // 
@@ -234,21 +234,21 @@
             this.btnguardarcitas.UseVisualStyleBackColor = true;
             this.btnguardarcitas.Click += new System.EventHandler(this.btnguardarcitas_Click);
             // 
-            // btncrearreporte
+            // btncverdatospaciente
             // 
-            this.btncrearreporte.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btncrearreporte.FlatAppearance.BorderSize = 2;
-            this.btncrearreporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncrearreporte.ForeColor = System.Drawing.Color.Transparent;
-            this.btncrearreporte.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
-            this.btncrearreporte.IconColor = System.Drawing.Color.White;
-            this.btncrearreporte.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btncrearreporte.Location = new System.Drawing.Point(0, 92);
-            this.btncrearreporte.Name = "btncrearreporte";
-            this.btncrearreporte.Size = new System.Drawing.Size(85, 92);
-            this.btncrearreporte.TabIndex = 2;
-            this.btncrearreporte.UseVisualStyleBackColor = true;
-            this.btncrearreporte.Click += new System.EventHandler(this.btncrearreporte_Click);
+            this.btncverdatospaciente.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btncverdatospaciente.FlatAppearance.BorderSize = 2;
+            this.btncverdatospaciente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncverdatospaciente.ForeColor = System.Drawing.Color.Transparent;
+            this.btncverdatospaciente.IconChar = FontAwesome.Sharp.IconChar.ClipboardList;
+            this.btncverdatospaciente.IconColor = System.Drawing.Color.White;
+            this.btncverdatospaciente.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btncverdatospaciente.Location = new System.Drawing.Point(0, 92);
+            this.btncverdatospaciente.Name = "btncverdatospaciente";
+            this.btncverdatospaciente.Size = new System.Drawing.Size(85, 92);
+            this.btncverdatospaciente.TabIndex = 2;
+            this.btncverdatospaciente.UseVisualStyleBackColor = true;
+            this.btncverdatospaciente.Click += new System.EventHandler(this.btncrearreporte_Click);
             // 
             // btnRegistrarPacientes
             // 
@@ -297,9 +297,9 @@
         private FontAwesome.Sharp.IconButton btnLogin;
         private FontAwesome.Sharp.IconButton btnSalir;
         private System.Windows.Forms.Panel pnlBarraLateral;
-        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton btnAgregarDoctor;
         private FontAwesome.Sharp.IconButton btnguardarcitas;
-        private FontAwesome.Sharp.IconButton btncrearreporte;
+        private FontAwesome.Sharp.IconButton btncverdatospaciente;
         private FontAwesome.Sharp.IconButton btnRegistrarPacientes;
     }
 }
